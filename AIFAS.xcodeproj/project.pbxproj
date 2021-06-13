@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		8FA2885426765F7600A35300 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2885326765F7600A35300 /* AppDelegate.swift */; };
 		8FA2885626765F7600A35300 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2885526765F7600A35300 /* SceneDelegate.swift */; };
-		8FA2885826765F7600A35300 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2885726765F7600A35300 /* ViewController.swift */; };
-		8FA2885B26765F7600A35300 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2885926765F7600A35300 /* Main.storyboard */; };
+		8FA2885826765F7600A35300 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2885726765F7600A35300 /* CameraViewController.swift */; };
 		8FA2885D26765F7800A35300 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2885C26765F7800A35300 /* Assets.xcassets */; };
 		8FA2886026765F7800A35300 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2885E26765F7800A35300 /* LaunchScreen.storyboard */; };
 		8FA2886B26765F7800A35300 /* AIFASTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2886A26765F7800A35300 /* AIFASTests.swift */; };
 		8FA2887626765F7800A35300 /* AIFASUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2887526765F7800A35300 /* AIFASUITests.swift */; };
+		8FA288862676616900A35300 /* StoryBoardInstantiatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA288852676616900A35300 /* StoryBoardInstantiatable.swift */; };
+		8FA2888A2676633800A35300 /* CameraViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA288892676633800A35300 /* CameraViewController.storyboard */; };
+		8FA2888C267667B600A35300 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2888B267667B600A35300 /* ListViewController.swift */; };
+		8FA2888E267667C200A35300 /* ListViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2888D267667C200A35300 /* ListViewController.storyboard */; };
+		8FA2889026766C1000A35300 /* ShareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA2888F26766C1000A35300 /* ShareViewController.swift */; };
+		8FA2889226766C1A00A35300 /* ShareViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA2889126766C1A00A35300 /* ShareViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +43,7 @@
 		8FA2885026765F7600A35300 /* AIFAS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIFAS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA2885326765F7600A35300 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FA2885526765F7600A35300 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8FA2885726765F7600A35300 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8FA2885A26765F7600A35300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FA2885726765F7600A35300 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		8FA2885C26765F7800A35300 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8FA2885F26765F7800A35300 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FA2886126765F7800A35300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +53,12 @@
 		8FA2887126765F7800A35300 /* AIFASUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIFASUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA2887526765F7800A35300 /* AIFASUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIFASUITests.swift; sourceTree = "<group>"; };
 		8FA2887726765F7800A35300 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA288852676616900A35300 /* StoryBoardInstantiatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardInstantiatable.swift; sourceTree = "<group>"; };
+		8FA288892676633800A35300 /* CameraViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CameraViewController.storyboard; sourceTree = "<group>"; };
+		8FA2888B267667B600A35300 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		8FA2888D267667C200A35300 /* ListViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ListViewController.storyboard; sourceTree = "<group>"; };
+		8FA2888F26766C1000A35300 /* ShareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareViewController.swift; sourceTree = "<group>"; };
+		8FA2889126766C1A00A35300 /* ShareViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShareViewController.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +109,10 @@
 		8FA2885226765F7600A35300 /* AIFAS */ = {
 			isa = PBXGroup;
 			children = (
+				8FA288842676613D00A35300 /* Extentions */,
+				8FA288832676613300A35300 /* ViewControllers */,
 				8FA2885326765F7600A35300 /* AppDelegate.swift */,
 				8FA2885526765F7600A35300 /* SceneDelegate.swift */,
-				8FA2885726765F7600A35300 /* ViewController.swift */,
-				8FA2885926765F7600A35300 /* Main.storyboard */,
 				8FA2885C26765F7800A35300 /* Assets.xcassets */,
 				8FA2885E26765F7800A35300 /* LaunchScreen.storyboard */,
 				8FA2886126765F7800A35300 /* Info.plist */,
@@ -126,6 +136,27 @@
 				8FA2887726765F7800A35300 /* Info.plist */,
 			);
 			path = AIFASUITests;
+			sourceTree = "<group>";
+		};
+		8FA288832676613300A35300 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8FA2885726765F7600A35300 /* CameraViewController.swift */,
+				8FA288892676633800A35300 /* CameraViewController.storyboard */,
+				8FA2888B267667B600A35300 /* ListViewController.swift */,
+				8FA2888D267667C200A35300 /* ListViewController.storyboard */,
+				8FA2888F26766C1000A35300 /* ShareViewController.swift */,
+				8FA2889126766C1A00A35300 /* ShareViewController.storyboard */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8FA288842676613D00A35300 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8FA288852676616900A35300 /* StoryBoardInstantiatable.swift */,
+			);
+			path = Extentions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +264,9 @@
 			files = (
 				8FA2886026765F7800A35300 /* LaunchScreen.storyboard in Resources */,
 				8FA2885D26765F7800A35300 /* Assets.xcassets in Resources */,
-				8FA2885B26765F7600A35300 /* Main.storyboard in Resources */,
+				8FA2888A2676633800A35300 /* CameraViewController.storyboard in Resources */,
+				8FA2888E267667C200A35300 /* ListViewController.storyboard in Resources */,
+				8FA2889226766C1A00A35300 /* ShareViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +291,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA2885826765F7600A35300 /* ViewController.swift in Sources */,
+				8FA2889026766C1000A35300 /* ShareViewController.swift in Sources */,
+				8FA2885826765F7600A35300 /* CameraViewController.swift in Sources */,
+				8FA288862676616900A35300 /* StoryBoardInstantiatable.swift in Sources */,
 				8FA2885426765F7600A35300 /* AppDelegate.swift in Sources */,
+				8FA2888C267667B600A35300 /* ListViewController.swift in Sources */,
 				8FA2885626765F7600A35300 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,14 +332,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8FA2885926765F7600A35300 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8FA2885A26765F7600A35300 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8FA2885E26765F7800A35300 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
