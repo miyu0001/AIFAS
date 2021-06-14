@@ -18,3 +18,4 @@ class ShareViewController: UIViewController, Instantiatable {
         imageView.image = image
     }
 }
+//練習
